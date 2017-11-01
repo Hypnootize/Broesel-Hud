@@ -1,25 +1,5 @@
 "GameMenu"
 {
-	"CasualButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"command" "play_competitive"
-		"OnlyAtMenu" "1"
-		"tooltip" "Play Competitive"
-		"subimage"	"glyph_practice"
-	}
-	"MvMButton"
-	{
-		"command" "play_mvm"
-		"OnlyAtMenu" "1"
-		"tooltip" "Play MvM"
-		"subimage"	"glyph_coop"
-	}
 	"ServerBrowserButton"
 	{
 		"label"	"Server Browser"
@@ -37,12 +17,13 @@
 		"label" 		"#GameUI_GameMenu_ReplayDemos"
 		"command" 		"engine replay_reloadbrowser"
 		"subimage" 		"glyph_tv"
+		"OnlyAtMenu"	"1"
 	}
 	"ScoreboardButton"
 	{
 		"label"			"change scoreboard"
 		"command"		"engine toggle cl_hud_minmode"
-		"subimage" "glyph_practice"
+		"subimage" 		"glyph_practice"
 		"OnlyInGame"	"1"
 	}
 

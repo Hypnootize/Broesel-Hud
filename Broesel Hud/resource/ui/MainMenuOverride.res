@@ -181,10 +181,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainMenuBGPanel"
 		"xpos"			"c-303"
-		"ypos"			"140"
+		"ypos"			"106"
 		"zpos"			"-1"
-		"wide"			"199"
-		"tall"			"139"
+		"wide"			"210"
+		"tall"			"173"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorderAlpha"
@@ -213,10 +213,174 @@
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
-		"tall"			"600"
+		"tall"			"0"	//600
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+	}
+	
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"r-10"	//"cs-0.5-256"
+		"ypos"			"cs-0.5-165"
+
+		"zpos"			"-51"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"c-422"
+		"ypos"			"85"
+		"zpos"			"1"
+		"wide"			"320"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
+
+		"show_model"	"0"
+	}
+	
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"c-308"
+		"ypos"			"255"
+		"zpos"			"5"
+		"wide"			"260"
+		"tall"			"150"
+		"visible"		"1"
+
+		"border"		"NoBorder"
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_Competitive_Friends"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
+			"fgcolor_override"	"235 227 203 255"
+		}
+
+		"InnerShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerShadow"
+			"xpos"			"5"
+			"ypos"			"rs1-20"
+			"zpos"			"0"
+			"wide"			"210"
+			"tall"			"105"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"paintborder"	"1"
+			"border"		"MainMenuBGBorderAlpha"
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"	"CSteamFriendsListPanel"
+			"fieldname"		"SteamFriendsList"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-25"
+			"zpos"			"500"
+			"wide"			"f20"
+			"tall"			"95"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"columns_count"	"2"
+			"inset_x"		"0"
+			"inset_y"		"0"
+			"row_gap"		"5"
+			"column_gap"	"0"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"100"
+				"tall"		"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1-1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"0" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"TanDark"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"499"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"bgcolor_override"	"0 0 0 0"
+		}
 	}
 
 	"TooltipPanel"
@@ -277,9 +441,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"c-128"
-		"ypos"			"146"
-		"zpos"			"10"
+		"xpos"			"c-117"
+		"ypos"			"168"
+		"zpos"			"11"
 		"wide"			"18"
 		"tall"			"18"
 		"visible"		"1"
@@ -592,7 +756,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_quests"
+				"image"			"button_quests_pda"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -1140,8 +1304,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c-303"
-		"ypos"			"13"
+		"xpos"			"c0"
+		"ypos"			"102"
 		"zpos"			"10"
 		"wide"			"199"
 		"tall"			"80"
@@ -1250,197 +1414,14 @@
 		}
 	}
 	
-	"CasualButton"
-    {
-        "ControlName"   "EditablePanel"
-        "fieldname"     "CasualButton"
-		"xpos"			"c-300"
-		"ypos"			"144"
-		"wide"			"193"
-		"tall"			"22"
-		"visible"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"193"
-			"tall"			"22"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-				
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-				
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-				
-			"image_drawcolor"	"58 55 54 255"
-			"image_armedcolor"	"235 226 202 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"13"
-				"tall"			"13"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-	
-	"MvMButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MvMButton"
-		"xpos"			"c-146"
-		"ypos"			"146"
-		"zpos"			"10"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"18"
-			"tall"			"18"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			""
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-	
-	"CompetitiveButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CompetitiveButton"
-		"xpos"			"c-164"
-		"ypos"			"146"
-		"zpos"			"10"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"18"
-			"tall"			"18"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
-				"zpos"			"1"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			""
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-	
 	"ServerBrowserButton"
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "ServerBrowserButton"
 		"xpos"			"c-300"
 		"ypos"			"166"
-		"wide"			"193"
+		"zpos"			"10"
+		"wide"			"204"
 		"tall"			"22"
 		"visible"		"1"
 		
@@ -1450,7 +1431,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"193"
+			"wide"			"204"
 			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1500,7 +1481,8 @@
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-300"
 		"ypos"			"188"
-		"wide"			"193"
+		"zpos"			"10"
+		"wide"			"204"
 		"tall"			"22"
 		"visible"		"1"
 		
@@ -1510,7 +1492,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"193"
+			"wide"			"204"
 			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1560,7 +1542,8 @@
 		"fieldname"		"ConsoleButton"
 		"xpos"			"c-300"
 		"ypos"			"210"
-		"wide"			"193"
+		"zpos"			"10"
+		"wide"			"204"
 		"tall"			"22"
 		"visible"		"1"
 		
@@ -1570,7 +1553,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"193"
+			"wide"			"204"
 			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1620,7 +1603,8 @@
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-300"
 		"ypos"			"232"
-		"wide"			"193"
+		"zpos"			"10"
+		"wide"			"204"
 		"tall"			"22"
 		"visible"		"1"
 		
@@ -1630,7 +1614,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"193"
+			"wide"			"204"
 			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1680,7 +1664,8 @@
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-300"
 		"ypos"			"254"
-		"wide"			"193"
+		"zpos"			"10"
+		"wide"			"204"
 		"tall"			"22"
 		"visible"		"1"
 		
@@ -1690,7 +1675,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"193"
+			"wide"			"204"
 			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1739,8 +1724,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ScoreboardButton"
 		"xpos"			"c-300"
-		"ypos"			"232"
-		"wide"			"193"
+		"ypos"			"254"
+		"zpos"			"10"
+		"wide"			"204"
 		"tall"			"22"
 		"visible"		"1"
 		
@@ -1750,7 +1736,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"193"
+			"wide"			"204"
 			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1798,8 +1784,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-163"
-		"ypos"			"146"
+		"xpos"			"c-152"
+		"ypos"			"190"
+		"zpos"			"11"
 		"zpos"			"12"
 		"wide"			"18"
 		"tall"			"18"
@@ -1859,8 +1846,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-145"
-		"ypos"			"146"
+		"xpos"			"c-134"
+		"ypos"			"190"
+		"zpos"			"11"
 		"zpos"			"12"
 		"wide"			"18"
 		"tall"			"18"
@@ -1921,8 +1909,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-127"
-		"ypos"			"146"
+		"xpos"			"c-116"
+		"ypos"			"190"
+		"zpos"			"11"
 		"zpos"			"12"
 		"wide"			"18"
 		"tall"			"18"
@@ -2231,7 +2220,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#MMenu_AdvOptions"
+		"labelText"		"Adv.Options"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"east"
 		"textinsetx"	"35"
