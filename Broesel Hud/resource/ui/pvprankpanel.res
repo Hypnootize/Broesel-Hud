@@ -191,13 +191,14 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
+			"xpos"			"59"
 			"ypos"			"5"
 			"wide"			"190"
 			"zpos"			"100"
@@ -212,6 +213,7 @@
 
 			if_mini
 			{
+				"xpos"		"65"
 				"visible"	"0"
 			}
 		}
@@ -220,7 +222,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"65"
+			"xpos"			"59"
 			"ypos"			"20"
 			"wide"			"f0"
 			"zpos"			"100"
@@ -246,7 +248,7 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"rs1-5"
 			"ypos"			"0"
-			"wide"			"f70"
+			"wide"			"198"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
