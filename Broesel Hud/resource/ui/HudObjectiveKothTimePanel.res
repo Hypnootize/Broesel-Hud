@@ -22,7 +22,8 @@
 		
 		if_match
 		{
-			"xpos"				"38"
+			"xpos"			"33"
+			"ypos"			"10"
 		}
 		
 		"TimePanelValue"
@@ -44,7 +45,6 @@
 			if_match
 			{
 				"font"			"surface12"
-				"ypos"			"10"
 			}
 		}
 	}
@@ -63,7 +63,8 @@
 		
 		if_match
 		{
-			"xpos"				"62"
+			"xpos"			"69"
+			"ypos"			"10"
 		}
 		
 		"TimePanelValue"
@@ -84,8 +85,7 @@
 			
 			if_match
 			{
-				"font"			"surface12"
-				"ypos"			"10"
+				"font"		"surface12"
 			}
 		}	
 	}

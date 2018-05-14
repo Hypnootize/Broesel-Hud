@@ -283,8 +283,9 @@
 		
 		if_match
 		{
+			"xpos"				"c-48"
+			"ypos"				"10"
 			"zpos"				"5"
-			"ypos"				"8"
 		}
 		
 		"TimePanelValue"
