@@ -2,32 +2,22 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"24"
-		"ypos"			"340"
-		"wide"			"f0"
-		"tall"			"260"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"24"
+		"ypos"					"340"
+		"wide"					"f0"
+		"tall"					"260"
+		"MeterFG"				"White"
+		"MeterBG"				"Gray"
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"ItemEffectMeterBG"
+		"xpos"					"9999"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -70,7 +60,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"		"255 255 255 255"
 	}					
 	
 	"ItemEffectMeterCount"
@@ -91,13 +81,13 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"surface28"
-		"fgcolor" "255 255 255 255"
+		"fgcolor" 				"255 255 255 255"
 	}
 	
-	"ItemEffectMeterCount2"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount2"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"c165"
 		"ypos"					"90"
 		"zpos"					"2"
@@ -112,6 +102,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"surface28"
-		"fgcolor" "0 0 0 255"
+		"fgcolor" 				"0 0 0 255"
 	}
 }

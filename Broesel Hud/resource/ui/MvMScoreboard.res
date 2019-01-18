@@ -23,7 +23,7 @@
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
 		"xpos"			"468"
-		"ypos"			"315"
+		"ypos"			"394"
 		"wide"			"69"
 		"tall"			"20"
 		"fgcolor"		"255 255 255 255"
@@ -34,7 +34,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"411"
-		"ypos"			"149"
+		"ypos"			"258"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
@@ -43,9 +43,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"surface10"
+			"font"			"surface16"
 			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"150"
@@ -57,12 +57,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"surface10"
+			"font"			"surface16"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"133"
+			"ypos"			"20"
+			"wide"			"150"
 			"tall"			"12"
 			"fgcolor"		"255 255 255 255"
 		}
@@ -75,7 +75,7 @@
 		"xpos"			"100"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"0" //400
+		"wide"			"0" 	//400
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -94,9 +94,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"46"
-		"ypos"			"147"
-		"wide"			"355"
+		"xpos"			"35"
+		"ypos"			"100"
+		"wide"			"530"
 		"tall"			"148"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,32 +111,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"395"
-		"ypos"			"135"
+		"xpos"			"58"
+		"ypos"			"215"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
 		
 		"CreditStatsBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"0" //400
-			"tall"			"135"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"xpos"			"9999"
 		}
 		
 		"CreditsLabel"
@@ -146,7 +131,7 @@
 			"font"			"HudFontMediumSmall"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
-			"xpos"			"8"
+			"xpos"			"10"
 			"ypos"			"8"
 			"wide"			"0" //0
 			"fgcolor"		"tanlight"
@@ -156,7 +141,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"8"
+			"xpos"			"10"
 			"ypos"			"32"
 			"wide"			"184"
 			"tall"			"60"
@@ -168,8 +153,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"8"
-			"ypos"			"94"
+			"xpos"			"200"
+			"ypos"			"32"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -192,8 +177,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"85"
-			"ypos"			"94"
+			"xpos"			"275"
+			"ypos"			"32"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"

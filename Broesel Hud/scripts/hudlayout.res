@@ -1,426 +1,8 @@
-																																																																																																	"Resource/HudLayout.res"{ divider{"
-------------------------------------------
-Cross
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair01" "labelText" "a" "font"
-
-	"size: 14, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-hollow Cross
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair02" "labelText" "b" "font"
-
-	"size: 18, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-hollow Cross with a dot in the middle
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair03" "labelText" "c" "font"
-
-	"size: 18, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-thick Cross
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair04" "labelText" "d" "font"
-
-	"size: 16, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-small Cross
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair05" "labelText" "e" "font"
-
-	"size: 18, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-wide Cross
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair06" "labelText" "f" "font"
-
-	"size: 20, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-thick wide Cross
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair07" "labelText" "g" "font"
-
-	"size: 22, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-------------------------------------------
-thin Circle
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair08" "labelText" "h" "font"
-
-	"size: 30, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 217"																																																																																									} divider{"
-
-------------------------------------------
-thick Circle
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair09" "labelText" "i" "font"
-
-	"size: 30, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 100"																																																																																									} divider{"
-
-------------------------------------------
-quartered Circle
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair10" "labelText" "j" "font"
-
-	"size: 30, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 100"																																																																																									} divider{"
-------------------------------------------
-Dot
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair11" "labelText" "k" "font"
-
-	"size: 24, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
-
-------------------------------------------
-Square
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair12" "labelText" "l" "font"
-
-	"size: 22, outline: on"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
-
-------------------------------------------
-round brackets with a cross in the middle
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair13" "labelText" "m" "font"
-
-	"size: 24, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 179"																																																																																									} divider{"
-
-------------------------------------------
-round brackets with a dot in the middle
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair14" "labelText" "n" "font"
-
-	"size: 24, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 179"																																																																																									} divider{"
-
-------------------------------------------
-round brackets
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair15" "labelText" "o" "font"
-
-	"size: 24, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 179"																																																																																									} divider{"
-
-------------------------------------------
-Lozenge
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair16" "labelText" "p" "font"
-
-	"size: 22, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
-
-------------------------------------------
-Wings
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair17" "labelText" "q" "font"
-
-	"size: 27, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
-
-------------------------------------------
-Batman
-------------------------------------------																																																																																							" " ' "} " "{
-
-	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair18" "labelText" "r" "font"
-
-	"size: 32, outline: off"
-
-	"xpos"	"c-25"
-	"ypos"	"c-25"
-	"wide"	"50"
-	"tall"	"50"
-
-	"fgcolor"	"255 60 235 255"																																																																																									}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	CrossHairNormal
-	{
-		"controlName"  "CExLabel"
-		"fieldName"     "CrossHairNormal"
-		"visible"    "0"
-		"enabled"    "1"
-		"zpos"      "1"
-		"xpos"      "c-14"
-		"ypos"      "c-13"
-		"wide"      "25"
-		"tall"      "27"
-		"font"      "CrossHairNormal"
-		"labelText"    "x"
-		"fgcolor"    "235 226 202 255"
-		"textAlignment"  "center"
-	}
+#base "../scripts/Crosshairs/crosshairs.res"
+
+"Resource/HudLayout.res"
+{ 
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -464,9 +46,9 @@ Batman
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"55"
+		"blue_active_xpos" "55"
 	
-		"red_active_xpos"			"105"
+		"red_active_xpos" "105"
 	}
 
 	HudItemEffectMeter
@@ -510,13 +92,13 @@ Batman
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-37"
-		"ypos"			"r120"
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"100"
-		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -599,8 +181,8 @@ Batman
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-245"	//12
-		"ypos"					"369"	//r28
+		"xpos"					"c-245"
+		"ypos"					"369"
 		"wide"					"f0"
 		"tall"  				"24"
 		"visible" 				"1"
@@ -1183,6 +765,7 @@ Batman
 		"enabled"				"1"
 		"xpos"					"c-145"
 		"ypos"					"315"
+		"zpos"					"20"
 		"wide"					"300"
 		"tall"					"215"
 	}
@@ -1194,6 +777,7 @@ Batman
 		"enabled"				"1"
 		"xpos"					"c-145"
 		"ypos"					"315"
+		"zpos"					"20"
 		"wide"					"300"
 		"tall"					"215"
 	}
@@ -1201,12 +785,12 @@ Batman
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-133"
-		"ypos"				"270"
-		"wide"					"266"
-		"tall"					"120"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 	
 	FreezePanel
@@ -1279,6 +863,7 @@ Batman
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1291,6 +876,7 @@ Batman
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1303,6 +889,7 @@ Batman
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c-55"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1315,6 +902,7 @@ Batman
 		"enabled" 		"1"
 		"xpos"			"c-189"
 		"ypos"			"c-92"
+		"zpos"			"20"
 		"wide"			"378"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1335,11 +923,11 @@ Batman
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"wide"					"320"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 	}
 
@@ -1347,11 +935,11 @@ Batman
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"wide"					"320"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 	}
 
@@ -1663,6 +1251,7 @@ Batman
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"220"
+		"zpos"					"20"
 		"wide"					"0"		//300
 		"tall"					"215"
 	}
@@ -1719,9 +1308,9 @@ Batman
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-316"
+		"xpos"			"c-232"
 		"ypos"			"c-52"
-		"zpos"			"2"
+		"zpos"			"20"
 		"wide"			"640"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
@@ -1833,4 +1422,3 @@ Batman
 		"alpha"					"100"
 	}
 }
-

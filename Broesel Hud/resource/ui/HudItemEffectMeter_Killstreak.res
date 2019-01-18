@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"24"			//24
+		"xpos"			"24"
 		"ypos"			"340"
 		"wide"			"f0"
 		"tall"			"260"
@@ -70,7 +70,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"		"255 255 255 255"
 	}					
 	
 	"ItemEffectMeterCount"
@@ -91,13 +91,13 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"surface28"
-		"fgcolor" "255 255 255 255"
+		"fgcolor" 				"255 255 255 255"
 	}
 	
-	"ItemEffectMeterCount2"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount2"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"c190"
 		"ypos"					"90"
 		"zpos"					"2"
@@ -112,6 +112,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"surface28"
-		"fgcolor" "0 0 0 255"
+		"fgcolor" 				"0 0 0 255"
 	}
 }
