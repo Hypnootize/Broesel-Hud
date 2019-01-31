@@ -8,7 +8,7 @@
 
 [Screenshot Album](https://imgur.com/a/YxG82)
 
-[Changelogs](https://github.com/Hypnootize/Broesel-Hud)
+[Changelogs](https://github.com/Hypnootize/Broesel-Hud/commits/master)
 
 
 <a>INSTALLATION</a>
