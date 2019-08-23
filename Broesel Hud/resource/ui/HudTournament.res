@@ -546,7 +546,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"#Tournament_Instructions"
+		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
 		
 		if_competitive

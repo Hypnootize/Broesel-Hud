@@ -43,6 +43,26 @@
 		"bgcolor_override"	"255 255 255 255"
 	}
 	
+	"EnemyCountCritImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"EnemyCountCritImageBG"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"1"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"PaintBackgroundType" "2"
+		//"bgcolor" "Yellow"
+		//"bgcolor_override"	"Yellow"
+		//"fgcolor_override"	"Yellow"
+		//"PaintBackgroundType" "2"
+		"image"			"../hud/leaderboard_class_critical"
+	}
+	
 	"EnemyCount"
 	{
 		"ControlName"	"CExLabel"
