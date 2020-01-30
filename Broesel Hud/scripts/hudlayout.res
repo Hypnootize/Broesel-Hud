@@ -1,8 +1,7 @@
 #base "../scripts/Crosshairs/crosshairs.res"
 
 "Resource/HudLayout.res"
-{ 
-	
+{
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
