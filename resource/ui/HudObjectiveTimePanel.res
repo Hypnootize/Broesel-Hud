@@ -17,11 +17,6 @@
 		"src_corner_width"		"3"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		
-		if_match
-		{
-			"xpos"				"9999"
-		}
 	}
 	
 	"TimePanelProgressBar"
@@ -41,11 +36,6 @@
 		"color_inactive"	"TimerProgress.InActive"
 		"color_warning"		"TimerProgress.Warning"
 		"percent_warning"	"0.75"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	
 	"WaitingForPlayersLabel"
@@ -80,12 +70,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
+		"scaleImage"	"1"
 	}
 	
 	"OvertimeLabel"
@@ -121,11 +106,6 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 75"	
 		"PaintBackgroundType"	"0"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}
 	
 	"SuddenDeathLabel"
@@ -146,11 +126,6 @@
 		"wrap"			"0"
 		"font"			"surface10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -164,12 +139,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
+		"scaleImage"	"1"
 	}	
 	"SetupLabel"
 	{
@@ -189,11 +159,6 @@
 		"wrap"			"0"
 		"font"			"surface10"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}	
 	"SetupBG"
 	{
@@ -208,11 +173,6 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 75"	
 		"PaintBackgroundType"	"0"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}
 	
 	"ServerTimeLimitLabel"
@@ -233,12 +193,6 @@
 		"wrap"			"0"
 		"font"			"surface14"
 		"fgcolor"		"255 255 255 255"
-		
-		if_match
-		{
-			"xpos"		"31"
-			"ypos"		"15"
-		}
 	}
 	
 	"ServerTimeLimitLabelBG"
@@ -253,10 +207,5 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 128"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}
 }

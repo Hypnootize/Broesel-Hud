@@ -1,4 +1,4 @@
-#base "../scripts/Crosshairs/crosshairs.res"
+#base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -45,9 +45,9 @@
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos" "55"
+		"blue_active_xpos" "59"
 	
-		"red_active_xpos" "105"
+		"red_active_xpos" "103"
 	}
 
 	HudItemEffectMeter

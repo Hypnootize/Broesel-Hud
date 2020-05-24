@@ -1,6 +1,5 @@
 "Resource/HudLayout.res"
 {
-
 	"SeekerCrosshair"
 	{
 		"visible"    								"0"
