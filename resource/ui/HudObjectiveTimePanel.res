@@ -193,6 +193,12 @@
 		"wrap"			"0"
 		"font"			"surface14"
 		"fgcolor"		"255 255 255 255"
+		
+		if_match
+		{
+			"xpos"		"31"
+			"ypos"		"14"
+		}
 	}
 	
 	"ServerTimeLimitLabelBG"
@@ -207,5 +213,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 128"
+		
+		if_match
+		{
+			"xpos"		"31"
+			"ypos"		"14"
+		}
 	}
 }
