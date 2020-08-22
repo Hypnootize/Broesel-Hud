@@ -1,4 +1,4 @@
-#base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
+#base "../scripts/Crosshairs/Crosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -1015,10 +1015,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-161"
-		"ypos"					"-20"
-		"wide"					"142"
-		"tall"					"200"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 	
 	NotificationPanel
