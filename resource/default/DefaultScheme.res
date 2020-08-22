@@ -1,52 +1,29 @@
-#base "../resource/crosshairs/Crosshair Fonts.res"
-Scheme{Colors{
+//
+// TRACKER SCHEME RESOURCE FILE
+//
+// sections:
+//		colors			- all the colors used by the scheme
+//		basesettings	- contains settings for app to use to draw controls
+//		fonts			- list of all the fonts used by app
+//		borders			- description of all the borders
+//
+//
+Scheme
+{
+	//Name - currently overriden in code
+	//{
+	//	"Name"	"ClientScheme"
+	//}
 
-///////////////////////////////////////////////////////////
-////////// BEGIN OF COLOR CUSTOMIZATION SECTION ///////////
-///////////////////////////////////////////////////////////
-
-
-	"HP"                  "255 255 255 255"
-
-	"low HP"              "255 255 255 255"
-	"buffed HP"           "255 255 255 255"
-
-	"TargetID low HP"     "255 210 160 255"
-	"TargetID buffed HP"  "140 255 100 255"
-
-	"Ammo in Clip"        "255 255 255 255"
-	"Ammo in Reserve"     "255 255 255 255"
-
-	"Damage Numbers"      "255 255 30 255"
-
-	"Ubercharge Bar"      "255 255 255 255"
-
-	"Ubercharge Full 1"   "61 202 53 255"
-	"Ubercharge Full 2"   "19 165 12 255"
-
-	"Low-Ammo Warning 1"  "200 0 0 255"
-	"Low-Ammo Warning 2"  "255 0 0 255"
-
-
-///////////////////////////////////////////////////////////
-/////////// END OF COLOR CUSTOMIZATION SECTION ////////////
-///////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
+	//////////////////////// COLORS ///////////////////////////
+	Colors
+	{
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
-
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -120,7 +97,7 @@ Scheme{Colors{
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"255 255 255 255"
+		"TanLight"				"235 226 202 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -215,7 +192,7 @@ Scheme{Colors{
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
-		
+
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
@@ -491,439 +468,68 @@ Scheme{Colors{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		surface8
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface9
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface10
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface10shadow
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface11
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface12
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface12shadow
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface13
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"13"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface14
-		{
-			"1"
-			{
-				"name"		"Surface-Medium"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface15
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface15shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface16
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface18
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface18shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface20
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface23
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"23"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface23shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"23"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface24
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface24shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface26
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface26shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface28
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface28shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface32
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface36
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"36"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface36shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"36"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
-			}
-		}
-		surface40
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"40"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface46
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"52"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface60
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"60"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surface72
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surfaceHPAmmo28
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surfaceHPAmmo72
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surfaceNumbers14
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		surfaceNumbers18
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		ItemEffectMeterLabels
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}	
-		Blank
-		{
-			"1"
-			{
-				"name"		"Blank"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		"Blocks"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" "0"
-			}
-		}
-		
 		"Default"
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
 			{
 				"name"		"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
-			}	
+			}
+
+			
 		}
 		"DefaultUnderline"
 		{
@@ -1104,7 +710,7 @@ Scheme{Colors{
 				"weight"		"800"
 			}
 		}
-CenterPrintText
+		CenterPrintText
 		{
 			// note that this scales with the screen resolution
 			"1"
@@ -1964,6 +1570,17 @@ CenterPrintText
 				"weight"		"500"
 			}
 		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardVerySmall"
 		{
 			"1"
@@ -1972,17 +1589,6 @@ CenterPrintText
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ScoreboardSmallest"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2767,7 +2373,6 @@ CenterPrintText
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2812,7 +2417,6 @@ CenterPrintText
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -3302,7 +2906,7 @@ CenterPrintText
 				"additive"	"0"
 			}
 		}
-		
+
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -3314,7 +2918,7 @@ CenterPrintText
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"XPSource"
 		{
 			"1"
@@ -3323,7 +2927,6 @@ CenterPrintText
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 
@@ -3337,10 +2940,9 @@ CenterPrintText
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
-		
+
 		"MapVotesPercentage"
 		{
 			"1"
@@ -3353,7 +2955,7 @@ CenterPrintText
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		"QuestMap_Small_Blur"
 		{
 			"1"
@@ -3414,7 +3016,6 @@ CenterPrintText
 				"antialias" "1"
 			}
 		}
-
 	}
 
 	//
@@ -3423,6 +3024,7 @@ CenterPrintText
 	// describes all the border types
 	Borders
 	{
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -5271,7 +4873,7 @@ CenterPrintText
 				}
 			}
 		}
-		
+
 		MainMenuButtonGlow
 		{
 			"bordertype"			"scalable_image"
@@ -5302,23 +4904,36 @@ CenterPrintText
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+
 			"image"					"alert_rect"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
+
+		NotificationHighPriority
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+
 		MainMenuButtonDepressed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+
 			"image"					"button_central_depressed"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuButtonDepressedArmed
 		{
@@ -5330,17 +4945,6 @@ CenterPrintText
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
-		}
-		NotificationHighPriority
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
 		}
 		MainMenuButtonDefault
 		{
@@ -5477,7 +5081,7 @@ CenterPrintText
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		
+
 		StoreHighlightedBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5631,7 +5235,7 @@ CenterPrintText
 				}
 			}
 		}
-		
+
 		SortCategoryBorder
 		{
 			"inset" "0 0 1 1"
@@ -5697,6 +5301,7 @@ CenterPrintText
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
@@ -5825,7 +5430,7 @@ CenterPrintText
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
-		
+
 		InnerShadowBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5849,7 +5454,7 @@ CenterPrintText
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		
+
 		OuterShadowBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5873,7 +5478,7 @@ CenterPrintText
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		
+
 		CYOAScreenBorder
 		{
 			"bordertype"			"scalable_image"
@@ -6099,6 +5704,9 @@ CenterPrintText
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -6141,7 +5749,7 @@ CenterPrintText
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}
+		}	
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
@@ -6158,37 +5766,67 @@ CenterPrintText
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}
-		"7" "resource/ocra.ttf"
-		"8"
+		}			
+		"7"
 		{
-			"font" "resource/fonts/Surface.otf"
-			"name" "Surface-Medium"
-		}
-		"9"
-		{
-			"font" "resource/fonts/Surface-Sharpened.ttf"
-			"name" "SurfaceSharpened-Medium"
-		}
-		"10"
-		{
-			"font" "resource/fonts/Surface-Numbers.ttf"
-			"name" "SurfaceNumbers-Medium"
-		}
-		"11"
-		{
-			"font" "resource/fonts/Surface-HP-and-Ammo_OLDSCHOOL.ttf"
-			"name" "SurfaceHPAmmo-Medium"
-		}
-		"12"
-		{
-			"font" "resource/fonts/Blank.ttf"
-			"name" "Blank"
-		}
-		"13"
-		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
 		}
 	}
 }
