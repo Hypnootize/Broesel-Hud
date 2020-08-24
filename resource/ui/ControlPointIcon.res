@@ -46,7 +46,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
 		"font"			"surfaceNumbers18"
-		"xpos"			"2"
+		"xpos"			"5"
 		"ypos"			"-5"
 		"zpos"			"4"
 		"wide"			"23"
