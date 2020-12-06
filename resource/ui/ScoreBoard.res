@@ -590,18 +590,21 @@
 		"font"						"surface12"
 		"labelText"					"%mapname%"
 		"textAlignment"				"center"
-		"xpos"						"454"
+		"xpos"						"460"
 		"xpos_minmode"				"8"
-		"ypos"						"365"
+		"ypos"						"355"
 		"ypos_minmode"				"369"
 		"zpos"						"3"
-		"wide"						"89"
+		"wide"						"90"
 		"wide_minmode"				"100"
-		"tall"						"21"
+		"tall"						"40"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"wrap"						"1"
+		"wrap_minmode"				"0"
+		"centerwrap"				"1"
 		"fgcolor"					"255 255 255 255"
 		
 		if_mvm
@@ -611,6 +614,8 @@
 			"ypos"					"376"
 			"ypos_minmode"			"376"
 			"wide_minmode"			"89"
+			"tall"					"21"
+			"wrap"					"0"
 		}
 	}
 	
