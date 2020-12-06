@@ -109,10 +109,10 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue"
+	"ok"
 	{
-		"ControlName"	"CTFButton"
-		"fieldName"		"MapInfoContinue"
+		"ControlName"	"CExButton"
+		"fieldName"		"ok"
 		"xpos"			"c40"
 		"ypos"			"r94"
 		"zpos"			"6"
@@ -122,7 +122,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -168,7 +168,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -250,5 +250,12 @@
 			"text"		"#TF_Continue_360"
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
+	}
+
+	"MapInfoContinue"
+	{
+		"ControlName"	"CTFButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
 	}	
 }
