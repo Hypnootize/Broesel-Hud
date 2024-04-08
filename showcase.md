@@ -37,7 +37,7 @@
 ![Scoreboard](../screenshots/11_Scoreboard.jpg?raw=true)
 
 ## SCOREBOARD 6VS6
-![Scoreboard 6v6](../screenshots/12_Scoboard_6v6.jpg?raw=true)
+![Scoreboard 6v6](../screenshots/12_Scoreboard_6v6.jpg?raw=true)
 
 ## SPY DISGUISE
 ![Disguise](../screenshots/13_Disguise.jpg?raw=true)
